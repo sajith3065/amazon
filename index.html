@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="./amazon.css">
+    <script src="https://kit.fontawesome.com/4122dc9dc7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <!-- Top Logo,/search box/login etc -->
+    <div id="t1">
+        <!-- amazon left side/ logo and Location -->
+        <div class="left p-1">
+            <img id="img1" src="./amazon Gallery/logo/Screenshot 2023-03-25 171959.jpg" alt="">
+        </div>
+        <!-- delivery location -->
+        <div class="left p-2">
+            <p id="p1">Deliver to <strong>India</strong></p>
+        </div>
+        <div class="left l-3">
+            <!-- Button All with Search bar -->
+            <button id="b1">All</button>
+        </div>
+        <div class="left l-4">
+            <!-- Search bar -->
+            <input id="in" type="text" placeholder="Search Amazon">
+        </div>
+        <!-- Search icon logo -->
+        <div class="left l-5">
+            <i id="f1" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-- Flag for English lang -->
+        <div class="left l-6">
+            <img id="flg" src="./amazon Gallery/flag/510px-Flag_of_the_United_States.svg.jpg" alt="">
+            <select name="EN" id="lang">
+                <option value="">En</option>
+                <option value="">Fn</option>
+                <option value="">Sp</option>
+            </select>
+        </div>
+
+        <!-- sign in  -->
+        <div class="left l-7">
+            <h5 class="sr">Hello,sign in</h5><br>
+            <h4 class="sr1">Accounts & List</h4>
+
+        </div>
+        <!-- returs orders -->
+        <div class="left l-8">
+            <h5 class="sr">Returns</h5><br>
+            <h4 class="sr1">& Orders</h4>
+
+        </div>
+        <!-- shopping Cart -->
+        <div class="left l-9">
+            <img id="shc" src="./amazon Gallery/shooping cart/181598lrtgm.jpeg" alt="">
+
+        </div>
+    </div>
+    <!-- ------------------------------- -->
+    <!-- second row -->
+    <div class="second">
+        <!-- First section (All) -->
+        <div class="second-1">
+            <div>
+                <i class="fas fa-bars"></i>
+                <span>All</span>
+            </div>
+
+        </div>
+        <!-- Second Section -->
+        <div class="second-2">
+            <ul>
+                <li>Sell</li>
+                <li>Amazon MiniTv</li>
+                <li>Best sellers</li>
+                <li>Mobiles</li>
+                <li>Todays Deal</li>
+                <li>Customer Service</li>
+                <li>Electronics</li>
+                <li>Prime</li>
+            </ul>
+        </div>
+        <!-- third Section -->
+        <div class="second-3">
+            <img id="prime" src="./amazon Gallery/prime/400x39-SWM_NP._CB594171341_.jpg" alt="">
+
+        </div>
+    </div>
+    <!-- ============================= -->
+
+    <!-- Third Row -->
+    <div class="third">
+
+        <img id="slide" src="./amazon Gallery/sliding images/61DUO0NqyyL._SX3000_.jpg" alt="">
+
+        <!-- scroll button -->
+        <div class="slide-1">
+            <button class="w3left" onclick="plusDivs(-1)">&#10094;</button>
+        </div>
+        <div class="slide-2">
+            <button class="w3right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+
+
+        <!-- third row coloms -->
+        <div class="firstcol fc-1">
+            <h4 id="fcs">Up to 50% off | Baby products & toys..</h4>
+            <div class="first1 cl-1">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/PC_QC_diaper_372X232._SY232_CB620365328_.jpg"
+                    alt="">
+                <h5 id="imgname">Diapers,Wipes</h5>
+            </div>
+            <div class="first1 cl-2">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/PC_QC_Teddy_372X232._SY232_CB620365328_.jpg"
+                    alt="">
+                <h5 id="imgname">Soft Toys</h5>
+            </div>
+            <div class="first1 cl-3">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/PC_QC_indoor_game_372X232._SY232_CB620365328_.jpg"
+                    alt="">
+                <h5 id="imgname">Indoor Games</h5>
+            </div>
+            <div class="first1 cl-4">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/AmazonBrands/GW_CPB_/QC_CC/PC_QC_rideon_372X232._SY232_CB620365328_.jpg"
+                    alt="">
+                <h5 id="imgname">Outdoor & More</h5>
+            </div>
+            <a id="more1" href="">See More</a>
+        </div>
+
+        <div class="firstcol fc-2">
+            <h4 id="fcs">Automotive essentials | Up to 60% off</h4>
+            <div class="first1 cl-1">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare2x._SY232_CB410830552_.jpg"
+                    alt="">
+
+                <h5 id="imgname">Clearing Kit</h5>
+            </div>
+            <div class="first1 cl-2">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare2x._SY232_CB410830552_.jpg"
+                    alt="">
+
+                <h5 id="imgname">Tyre & Rim Care</h5>
+            </div>
+            <div class="first1 cl-3">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_372x232._SY232_CB405083904_.jpg"
+                    alt="">
+                <h5 id="imgname">Helmets</h5>
+            </div>
+            <div class="first1 cl-4">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum2x._SY232_CB410830555_.jpg"
+                    alt="">
+                <h5 id="imgname">Vaccum Cleaners</h5>
+            </div>
+            <a id="more2" href="">See More</a>
+        </div>
+        <!-- Single Image -->
+        <div class="firstcol fc-3">
+            <h4 id="fcs">Bluetooth Calling Smartwatch starts at</h4>
+            <img id="singimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_758X608_1._SY608_CB614835787_.jpg"
+                alt="">
+            <a id="more3" href="">See More</a>
+        </div>
+
+    </div>
+
+
+    <!-- first colm Vertical colms -->
+    <div class="firstver fv-1">
+        <h4 id="fcs">Sign in for your best <br> experience</h4>
+        <button id="signin">Sign In Securely</button>
+    </div>
+
+    <div class="firstver fv-2">
+        <h4 id="fcs">Baby diapers & wipes at great prices</h4>
+        <img class="lrgimg"
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/CC_Rev2x._SY608_CB594433898_.jpg"
+            alt="">
+        <a id="more4" href="">See more</a>
+    </div>
+
+
+    </div>
+
+    <!-- =================================== -->
+    <!-- Fourth Row -->
+    <div id="fourth">
+        <h4 id="fcs">Today’s Deals</h4>
+        <a id="fmore" href="">See More</a>
+        <!-- first Colum -->
+        <div class="fourthcol frc-">
+            <img id="fourthimg" src="https://m.media-amazon.com/images/I/41yx-OTfNwL._AC_SY400_.jpg" alt="">
+            <h5 id="fourthoffer">Upto 40% off</h5>
+            <h5 id="fourthdeal">Deal Of the Day</h5>
+            <p id="dealname">Oppo a78 at 17000/..Including..</p>
+
+        </div>
+        <!-- Second colm -->
+        <div class="fourthcol frc-">
+            <img id="fourthimg" src="https://m.media-amazon.com/images/I/31cQxf0GUeL._AC_SY400_.jpg" alt="">
+            <h5 id="fourthoffer">Upto 20% off</h5>
+            <h5 id="fourthdeal">Deal Of the Day</h5>
+            <p id="dealname">Backpacks,Suitcases & More</p>
+
+        </div>
+        <!-- Third Colom -->
+        <div class="fourthcol frc-">
+            <img id="fourthimg" src="https://m.media-amazon.com/images/I/311DSq6Oq0L._AC_SY400_.jpg" alt="">
+            <h5 id="fourthoffer">Upto 75% off</h5>
+            <h5 id="fourthdeal">Deal Of the Day</h5>
+            <p id="dealname">Blockbuster Deals on JBL</p>
+        </div>
+        <!-- fourth colm -->
+        <div class="fourthcol frc-">
+            <img id="fourthimg" src="https://m.media-amazon.com/images/I/61QQtY6qtHL._AC_SY400_.jpg" alt="">
+            <h5 id="fourthoffer">Upto 50% off</h5>
+            <h5 id="fourthdeal">Deal Of the Day</h5>
+            <p id="dealname">Levis,Allens Solly,Reebok</p>
+        </div>
+        <div class="fourthcol frc-">
+            <img id="fourthimg" src="https://m.media-amazon.com/images/I/414UmXkNOAL._AC_SY400_.jpg" alt="">
+            <h5 id="fourthoffer">Upto 30% off</h5>
+            <h5 id="fourthdeal">Deal Of the Day</h5>
+            <p id="dealname">Vivo Y100, Buy Now @24000</p>
+
+        </div>
+
+        <!-- scroll button -->
+
+
+
+    </div>
+    <!-- fifth Row -->
+    <div id="fifth">
+        <h4 id="fifthheading">Up to 50% off | Kitchen appliances, cookware & more</h4>
+        <a id="fifthmore" href="">See More</a>
+        <img id="fifthimage" src="https://m.media-amazon.com/images/I/81lk7-7LejL._AC_SY400_.jpg" alt="">
+        <img id="fifthimage" src="https://m.media-amazon.com/images/I/91-T56QlYRL._AC_SY400_.jpg" alt="">
+        <img id="fifthimage" src="https://m.media-amazon.com/images/I/51UJBnfcWDL._AC_SY400_.jpg" alt="">
+        <img id="fifthimage" src="https://m.media-amazon.com/images/I/61GgIV3tqRL._AC_SY400_.jpg" alt="">
+        <img id="fifthimage" src="https://m.media-amazon.com/images/I/71VgHp7sgEL._AC_SY400_.jpg" alt="">
+
+
+    </div>
+    <!-- ============================== -->
+
+    <!-- sixth Row -->
+    <div id="sixth">
+        <img class="middleimg" src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" alt="">
+
+    </div>
+    <!-- ================================ -->
+    <!-- seventh Row -->
+    <div class="seventhrow">
+        <!-- first colm -->
+        <div class="seventh col-1">
+            <h4 id="fcs">Sell on Amazon with 1-Click Launch Support</h4>
+            <img class="sevlrgimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/March23/HR_758X608._SY608_CB595115209_.jpg"
+                alt="">
+            <a id="more1" href="">Register Now</a>
+        </div>
+        <!-- Second colom -->
+        <div class="seventh col-2">
+            <h4 id="fcs">Electronics devices for home office</h4>
+            <!-- From Second Row -->
+            <div class="first1 cl-1">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc_8._SY232_CB655805757_.jpg"
+                    alt="">
+                <h5 id="imgname">Monitors</h5>
+
+            </div>
+            <div class="first1 cl-2">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc_7._SY232_CB655805757_.jpg"
+                    alt="">
+                <h5 id="imgname">Laptops</h5>
+            </div>
+            <div class="first1 cl-3">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc_5._SY232_CB655805757_.jpg"
+                    alt="">
+                <h5 id="imgname">Smart Watches</h5>
+            </div>
+            <div class="first1 cl-4">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/PC/Computers/GW/DBQC/D21343116_IN_CEPC_BAU_GW_graphics_March21_dbqc_6._SY232_CB655805757_.jpg"
+                    alt="">
+                <h5 id="imgname">Tablets</h5>
+            </div>
+            <a id="more1" href="">See More</a>
+
+        </div>
+        <!-- Third colom -->
+        <div class="seventh col-3">
+            <h4 id="fcs">Value Packs under ₹599 | Amazon Brands & more</h4>
+            <img class="sevlrgimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2021/wrs/mencombo_high._SY608_CB666769241_.jpg"
+                alt="">
+            <a id="more1" href="">See All Offers</a>
+        </div>
+        <!-- fourth colom -->
+        <div class="seventh col-4">
+            <h4 id="fcs">Minimum 50% off | Top styles for her</h4>
+            <!-- From Second Row -->
+            <div class="first1 cl-1">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/4_2X._SY232_CB618751254_.jpg"
+                    alt="">
+                <h5 id="imgname">Harpa Only & More</h5>
+            </div>
+            <div class="first1 cl-2">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/3_2X._SY232_CB618751254_.jpg"
+                    alt="">
+                <h5 id="imgname">Allens Solly,Fort..</h5>
+            </div>
+            <div class="first1 cl-3">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/2_2X._SY232_CB618751254_.jpg"
+                    alt="">
+                <h5 id="imgname">Womanista, mimosa</h5>
+            </div>
+            <div class="first1 cl-4">
+                <img id="colimg"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/1_2X._SY232_CB618751254_.jpg"
+                    alt="">
+                <h5 id="imgname">Biba,Aurella</h5>
+            </div>
+
+
+            <a id="more1" href="">See More</a>
+        </div>
+
+    </div>
+    <!-- ============================ -->
+
+    <!-- 8th row -->
+    <div id="eightth">
+        <h4 id="eightthheading">Frequently repurchased in Beauty & Personal Care
+        </h4>
+        <img class="eightthimg ei-1" src="https://m.media-amazon.com/images/I/412s6dyeWyL._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-2" src="https://m.media-amazon.com/images/I/51x3cj+-iUL._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-3" src="https://m.media-amazon.com/images/I/510FAdhUiCL._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-4" src="https://m.media-amazon.com/images/I/51L2SYa1sjL._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-5" src="https://m.media-amazon.com/images/I/51u3BipAoQL._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-6" src="https://m.media-amazon.com/images/I/5159bBs2K4L._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-7" src="https://m.media-amazon.com/images/I/41093HFT+nL._AC_SY400_.jpg" alt="">
+        <img class="eightthimg ei-8" src="https://m.media-amazon.com/images/I/411z1Y27NgL._AC_SY400_.jpg" alt="">
+
+    </div>
+    <!-- ========================== -->
+    <!-- 9th Row -->
+    <div id="ninth">
+        <h4 id="ninthimgheading">Frequently repurchased in Grocery
+        </h4>
+        <img src="https://m.media-amazon.com/images/I/71zc-MGIFXL._AC_SY400_.jpg" alt="" class="ninthimg ei-1">
+        <img src="https://m.media-amazon.com/images/I/716+Hb5aYhL._AC_SY400_.jpg" alt="" class="ninthimg ei-2">
+        <img src="https://m.media-amazon.com/images/I/71gDy9g4FYL._AC_SY400_.jpg" alt="" class="ninthimg ei-3">
+        <img src="https://m.media-amazon.com/images/I/71MCHvl+EnL._AC_SY400_.jpg" alt="" class="ninthimg ei-4">
+        <img src="https://m.media-amazon.com/images/I/81WcF9j61AL._AC_SY400_.jpg" alt="" class="ninthimg ei-5">
+        <img src="https://m.media-amazon.com/images/I/61ADHI5hYcL._AC_SY400_.jpg" alt="" class="ninthimg ei-6">
+
+    </div>
+    <!-- ============================ -->
+    <!-- 10th Row -->
+    <div id="tenth">
+        <div class="tenthlr tcol-1">
+
+            <!-- from Seventh rwo Large img  -->
+            <h4 id="fcs">Roomies Season 4 out now on miniTV</h4>
+            <img class="sevlrgimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Home/AmazonTV/Tanisha/DeskCC_758x608_Roomies._SY608_CB616069683_.jpg"
+                alt="">
+            <a id="more1" href="">Watch For Free|Mini TV</a>
+
+
+        </div>
+        <div class="tenthlr tcol-2">
+            <h4 id="fcs">Bestselling Smartwatch starts at ₹1,999</h4>
+            <img class="sevlrgimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_758X608_2._SY608_CB614835787_.jpg"
+                alt="">
+            <a id="more1" href="">Shop Now</a>
+
+        </div>
+        <div class="tenthlr tcol-3">
+            <h4 id="fcs">Up to 70% off | Clearance store Bestselling </h4>
+            <img class="sevlrgimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_2x._SY608_CB628315133_.jpg"
+                alt="">
+            <a id="more1" href="">See More</a>
+
+        </div>
+        <div class="tenthlr tcol-4">
+            <h4 id="fcs">Up to 50% off | Monitor blood sugar at home</h4>
+            <img class="sevlrgimg"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/CC_high_3._SY608_CB592656736_.jpg"
+                alt="">
+            <a id="more1" href="">Visit The store</a>
+
+        </div>
+
+    </div>
+
+    <!-- /* ==================================== */
+    /* Sign in */ -->
+
+    <div class="signin">
+        <div id="middle">
+            <p class="per">See personalized recommendations</p>
+            <button class="signup">Sign In</button>
+            <a class="newcust" href="">New customer? Start here.</a>
+        </div>
+
+        <!-- ============================ -->
+        <!-- footer -->
+        <!-- bar -->
+        <div class="footer1">
+            <h5 id="totop">Back to Top</h5>
+
+        </div>
+
+
+    </div>
+
+    <!-- ========================================= -->
+    <!-- footer 2 -->
+    <div id="footer2">
+        <div class="list li-1">
+            <!-- list 1 heading -->
+            <h4 id="list1hd">Get to Know Us</h4>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+            <li>Amazon Science</li>
+
+        </div>
+        <div class="list li-2">
+            <h4 id="list1hd">Connect with Us</h4>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+
+
+
+        </div>
+        <div class="list li-3">
+            <h4 id="list1hd">Make Money with Us</h4>
+            <li>Sell on Amazon</li>
+            <li>Sell under Amazon Accelerator</li>
+            <li>Protect and Build Your Brand</li>
+            <li>Amazon Global Selling</li>
+            <li>Become an Affiliate</li>
+            <li>Fulfilment by Amazon</li>
+            <li>Advertise Your Products</li>
+            <li>Amazon Pay on Merchants </li>
+
+
+        </div>
+        <div class="list li-4">
+            <h4 id="list1hd">Let Us Help You</h4>
+            <li>COVID-19 and Amazon</li>
+            <li>Your Account</li>
+            <li>Returns Centre</li>
+            <li>100% Purchase Protection</li>
+            <li>Amazon App Download</li>
+            <li>Help</li>
+
+
+        </div>
+    </div>
+
+    <!-- =========================== -->
+
+    <div id="footer3">
+        <ul id="countrylist">
+            <li id="cli">
+                <a href="">Australia</a>
+            </li>
+            <li id="cli">
+                <a href="">Brazil</a>
+            </li>
+            <li id="cli">
+                <a href="">Canada</a>
+            </li>
+            <li id="cli">
+                <a href="">China</a>
+            </li>
+            <li id="cli">
+                <a href="">France</a>
+            </li>
+            <li id="cli">
+                <a href="">Mexico</a>
+            </li>
+            <li id="cli">
+                <a href="">India</a>
+            </li>
+            <li id="cli">
+                <a href="">China</a>
+            </li>
+            <li id="cli">
+                <a href="">Germany</a>
+            </li>
+            <li id="cli">
+                <a href="">France</a>
+            </li>
+            <li id="cli">
+                <a href="">Italy</a>
+            </li>
+            <li id="cli">
+                <a href="">Africa</a>
+            </li>
+            <li id="cli">
+                <a href="">Korea</a>
+            </li>
+            <li id="cli">
+                <a href="">singapore</a>
+            </li>
+            <li id="cli">
+                <a href="">Spain</a>
+            </li>
+            <li id="cli">
+                <a href="">Turkey</a>
+            </li>
+            <li id="cli">
+                <a href="">United States</a>
+            </li>
+            <li id="cli">
+                <a href="">United Kingdom</a>
+            </li>
+
+        </ul>
+
+
+    </div>
+<!-- ================================== -->
+
+
+
+
+</body>
+
+</html>
